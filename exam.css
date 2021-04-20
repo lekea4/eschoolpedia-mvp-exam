@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.exam {
+    background: transparent;
+    margin: 50px 100px;
+
+}
+
+.exam-body {
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    justify-content: space-around;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+
+.exam-img {
+    background: transparent;
+
+
+}
+
+.exam-img img {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.exam-login {
+    background: transparent;
+}
+
+form {
+    margin-top: 50px;
+    background: transparent;
+
+}
+
+.login-title {
+    display: flex;
+    justify-content: center;
+    color: rgba(1, 1, 155, 0.575);
+}
+
+.login-title i {
+    /* margin-top: 5px; */
+    margin-right: 10px;
+    font-size: 1.7em;
+}
+
+.form-group {
+    margin-top: 20px;
+
+}
+
+.input-group {
+    margin-top: 5px;
+}
+
+input {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: none;
+
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background: #3cb161;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.forgot {
+    margin-top: 5%;
+    color: #3cb161;
+}
+
+.sign-in {
+    margin-top: 5%;
+}
+
+.sign-in a {
+    color: #3cb161;
+}
